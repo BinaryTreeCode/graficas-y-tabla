@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+</head>
+<body>
+    <form action="">
+        <label for="datos">
+            <samp>ingresa los datos</samp>
+            <input type="text"  placeholder="dato" id="datos" autocomplete="off">
+<!--             <textarea name="comentarios" rows="10" cols="40" id="datos"></textarea>-->       
+        </label>
+
+        <label for="btn">
+            <samp>enviar datos</samp>
+            <button type="reset" id="btn">enviar</button>
+        </label>
+    </form>
+
+        <label for="btn_table">
+            <samp>procesar datos</samp>
+            <!-- que forma es mejor -->
+            <button type="button" id="btn_table" >procesar</button>
+            <!-- <button onclick="myFunction()">Click me</button> -->
+        </label>
+
+    <label for="">
+        <samp>ver grafigas</samp>
+        <button><a href="./graficas.html">ver graficas</a></button>
+    </label>
+    <br>
+    <label for="btn_tableG">
+        <samp>imprimir datos en una tabla</samp>
+        <button type="button" id="btn_tableG" >imprimir</button>
+    </label>
+    <div id="tabla"></div>
+    <script src="./graficars.js"></script>
+    <script>
+    vars ();
+    </script>
+</body>
+</html>
